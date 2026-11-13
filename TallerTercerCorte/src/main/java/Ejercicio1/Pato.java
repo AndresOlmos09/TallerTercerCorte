@@ -30,8 +30,5 @@ public class Pato extends Animal implements Volador, Nadador{
         System.out.println(nombre + " nada en el lago"); 
     }
    
-    @Override
-    public String habilidad(){
-        return "Vuela y nada";
-    }
+    
 }
